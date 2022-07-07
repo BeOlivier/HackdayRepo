@@ -7,27 +7,19 @@ function App() {
     fetch('https://localhost:7155/api/MovieQuotes/6')
     .then(res => res.json())
     .then(data => setQuote(data))
-
-    // const 
+  console.log(quotes);
   }, []);
-console.log(quotes);
 
-//
+console.log(quotes);
   
   return (
+    <>
     <div className="App">
+      <h1>Movie Quotes</h1>
       <div>{quotes.quote}</div>
-      <div>{quotes.answer1}</div>
-      <div>{quotes.answer2}</div>
-      <div>{quotes.answer3}</div>
     </div>
+    </>
   );
 }
-// useEffect(() => {
-//         effect
-//         return () => {
-//             cleanup
-//         }
-//     }, [input])
 
 export default App;
