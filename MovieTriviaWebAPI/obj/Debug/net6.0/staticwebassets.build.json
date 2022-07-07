@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pgHEbljgAYcQ7q8ICYlkIvtmp3EolelMhJX/kwPzU6A=",
+  "Source": "MovieTriviaWebAPI",
+  "BasePath": "_content/MovieTriviaWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
